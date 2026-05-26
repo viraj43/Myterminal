@@ -1,0 +1,33 @@
+# Compiled binary
+myshell
+launchshell
+
+# Object files
+*.o
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build folders
+build/
+dist/
+bin/
+obj/
