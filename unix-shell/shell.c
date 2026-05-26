@@ -11,6 +11,7 @@
 #include "./commands/clear.h"
 #include "./commands/ls.h"
 #include "./commands/cd.h"
+#include "./commands/external.h"
 #include "./utils/info.h"
 
 int main()
@@ -69,7 +70,7 @@ int main()
         }
         else
         {
-            printf("Unknown command\n");
+            run_external(args);
         }
     }
 }
